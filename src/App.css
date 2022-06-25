@@ -201,3 +201,44 @@ table tr,td {
   cursor: pointer;
   background-color: #f4fbf6;
 }
+
+@media screen and (max-width: 600px) {
+  .login-container{
+    padding: 0px 40px;
+  }
+
+  .login-container section{
+    padding: 20px;
+    margin-top: 20vh;
+  }
+
+  .header-container{
+    display: block;
+    padding: 20px;
+    text-align: center;
+   
+  }
+
+  .form-container{
+    flex-direction: column;
+    align-items:flex-start;
+    padding: 20px;
+    align-items: stretch;
+  }
+
+  .form-container input, select{
+    margin: 5px 0px;
+   
+  }
+
+  table {
+    display: block;
+  position: relative;
+  width: 100%;
+  }
+
+  table th, td, tr{
+    display: block;
+  }
+  
+}
