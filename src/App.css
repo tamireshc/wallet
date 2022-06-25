@@ -1,0 +1,203 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #323131;
+}
+body {
+  background-color: #f4fbf6;
+  min-height: 100vh;
+}
+
+.login-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.login-container section {
+  margin-top: 25vh;
+  background-color: #fffefe;
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  height: 22rem;
+  padding: 60px;
+  border-radius: 10px;
+}
+
+.login-container section h2{
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.login-container section input{
+  padding: 8px 10px;
+  font-family: sans-serif;
+  margin: 10px 0px;
+}
+
+.login-container section button{
+  padding: 8px 10px;
+  margin: 10px 0px;
+  background-color: #cee0d3;
+  border: none;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  color: #4a4949;
+  cursor: pointer;
+}
+
+.login-container section button:hover{
+  transition: 1s;
+  transform: scale(1.05);
+}
+
+.login-container section button:enabled{
+  background-color: #2c7f42;
+  color: white;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #b6c6bc;
+  padding: 20px 0px;  
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+}
+.title-header {
+  font-size: 2.2rem;
+  font-family:'Playfair Display', serif;
+  font-weight: 800;
+  color: #4a4949;
+}
+
+.header-container div {
+  display: flex;
+}
+
+.value-container{
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  font-family: sans-serif;
+}
+
+[data-testid="total-field"]{
+  color: #0ac856;
+  font-family: sans-serif;
+}
+
+[data-testid="email-field"], [data-testid="total-field"],[data-testid="header-currency-field"] {
+  margin: 0px 2px;
+  margin-top: 10px;
+  font-weight: 800;
+  color: #4a4949;
+  
+}
+.img-coin{
+  margin-right: 5px;
+  height: 35px;
+  margin-top: 10px;
+}
+
+ .img-dollar {
+  height: 25px;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+.form-container {
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  font-family:sans-serif;
+  font-weight: 600;
+}
+
+.form-container input, select{
+  border:none;
+  border-bottom: 1px solid #010201;
+  padding: 3px 6px;
+  margin-left: 10px;
+  background-color: #f5f7f6;
+}
+
+.form-container button{
+  padding: 5px 10px;
+  margin: 10px 0px;
+  background-color: #636865;
+  border: none;
+  font-size: 0.8rem;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: #636865;
+  cursor: pointer;
+  color: #FFFFF4;
+}
+
+.form-container button:hover{
+  transition: 1s;
+  transform: scale(1.05);
+}
+table{
+  width: 100vw;
+}
+table th{
+  background-color: #b6c6bc;
+  border: none;
+  padding: 8px 12px;
+  color: #4a4949;
+}
+
+table tr,td {
+  border-bottom: 1px solid #a5d2b1;
+  text-align: center;
+  font-size: 0.8rem;
+  font-family: sans-serif;
+  padding: 10px 0px;
+  
+}
+
+.buttons-table{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+[data-testid="delete-btn"]{
+  font-size: smaller;
+  border: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: white;
+  background-color: #272928;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+[data-testid="delete-btn"]:hover{
+ opacity: 80%;
+ transition: 1s;
+}
+
+.pencil-icon{
+  height: 20px;
+}
+
+[data-testid="edit-btn"]{
+  border: none;
+  cursor: pointer;
+  background-color: #f4fbf6;
+}
