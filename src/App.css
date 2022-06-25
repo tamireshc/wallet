@@ -195,13 +195,18 @@ table tr,td {
 }
 
 [data-testid="delete-btn"]:hover{
- opacity: 80%;
- transition: 1s;
+  transition: 1s;
+  transform: scale(1.05);
 }
 
 .pencil-icon{
   height: 22px;
   background-color: white;
+}
+
+.pencil-icon:hover{
+ transform: scale(1.05);
+ transition: 1s;
 }
 
 [data-testid="edit-btn"]{
