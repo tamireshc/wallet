@@ -4,5 +4,5 @@ A aplicação busca dados na API de cotação de moedas, adiciona despesas e con
 Código autoral feito como proposta de projeto da _[Trybe](https://www.betrybe.com/)_. <Br>
 Para visualizar o deploy clique aqui -> _[Deploy](https://wallet-zeta.vercel.app)_
   
-  *Utilize como senha uma combinação de 6 digitos
+  *Utilize como senha uma combinação de 6 dígitos
   
