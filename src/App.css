@@ -14,10 +14,11 @@ body {
   align-items: center;
   justify-content: center;
   
+  
 }
 
 .login-container section {
-  margin-top: 25vh;
+  margin-top: 20vh;
   background-color: #fffefe;
   display: flex;
   flex-direction: column;
@@ -64,7 +65,7 @@ body {
 .header-container {
   display: flex;
   justify-content: space-around;
-  background-color: #b6c6bc;
+  background-color: #f4fbf6;;
   padding: 20px 0px;  
 }
 
@@ -115,6 +116,10 @@ body {
   margin-right: 5px;
 }
 
+.container {
+  background-color: white;
+}
+
 .form-container {
   display: flex;
   padding: 10px;
@@ -130,7 +135,7 @@ body {
   border-bottom: 1px solid #010201;
   padding: 3px 6px;
   margin-left: 10px;
-  background-color: #f5f7f6;
+  background-color: #f4fbf6;;
 }
 
 .form-container button{
@@ -154,10 +159,11 @@ table{
   width: 100vw;
 }
 table th{
-  background-color: #b6c6bc;
+  background-color: #f4fbf6;;
   border: none;
   padding: 8px 12px;
   color: #4a4949;
+  border-bottom: 1px solid white;
 }
 
 table tr,td {
@@ -166,6 +172,7 @@ table tr,td {
   font-size: 0.8rem;
   font-family: sans-serif;
   padding: 10px 0px;
+  background-color: white;
   
 }
 
@@ -193,7 +200,8 @@ table tr,td {
 }
 
 .pencil-icon{
-  height: 20px;
+  height: 22px;
+  background-color: white;
 }
 
 [data-testid="edit-btn"]{

@@ -46,7 +46,6 @@ class Wallet extends React.Component {
     //   return soma + +i.value * +i.exchangeRates[i.currency].ask;}
     // const soma = attExpensesState.reduce(getTotal, 0);
     dispatch(deleteExpense(attExpensesState));
-    // dispatch(addValueTotalExpense(soma));
   }
 
   editFormFunction = (id) => {
@@ -206,14 +205,14 @@ class Wallet extends React.Component {
                     data-testid="edit-btn"
                     onClick={ () => {
                       this.editFormFunction(i.id);
-                      this.setState({ value: expenses[idToEdit].value,
-                        description: expenses[idToEdit].description,
+                      console.log(i.id);
+                      this.setState({ value: expenses[i.id].value,
+                        description: expenses[i.id].description,
                       });
                     } }
                   >
                     <img src={ pencil } alt="pencil" className="pencil-icon" />
                   </button>
-
                   <button
                     type="button"
                     data-testid="delete-btn"
