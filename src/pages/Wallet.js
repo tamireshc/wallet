@@ -71,7 +71,7 @@ class Wallet extends React.Component {
     dispatch(addValueTotalExpense(soma));
     return (
       <div>
-        {isLoading && <p>...Carregando</p>}
+        {isLoading && <div className="loader" />}
         <Header />
         <form className="form-container">
           <label htmlFor="value">

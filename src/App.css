@@ -120,6 +120,22 @@ body {
   background-color: white;
 }
 
+.loader {
+  border: 12px solid rgb(159, 210, 159);
+  border-top: 12px solid #f4fbf6;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  animation: spin 2s linear infinite;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
 .form-container {
   display: flex;
   padding: 10px;
