@@ -128,7 +128,7 @@ body {
   height: 80px;
   animation: spin 2s linear infinite;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 35vh;
 }
 
 @keyframes spin {
