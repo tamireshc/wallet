@@ -51,7 +51,7 @@ class Login extends React.Component {
             onChange={ this.handleChange }
             onKeyDown={ this.validateInputs }
             data-testid="email-input"
-            placeholder="nome"
+            placeholder="Email"
           />
           <input
             type="password"
@@ -61,7 +61,7 @@ class Login extends React.Component {
             onChange={ this.handleChange }
             onKeyDown={ this.validateInputs }
             data-testid="password-input"
-            placeholder="senha - digite 6 dígitos"
+            placeholder="senha - Insira 6 dígitos"
           />
           <button
             type="button"
