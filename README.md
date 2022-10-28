@@ -6,3 +6,4 @@ Para visualizar o deploy clique aqui -> _[Deploy](https://wallet-zeta.vercel.app
   
   *Utilize como senha uma combinação de 6 dígitos
   
+![Captura de Tela 2022-10-27 às 22 18 53](https://user-images.githubusercontent.com/65035109/198434851-da7c089b-3893-4ca1-81c9-91626a9ac5ce.png)
